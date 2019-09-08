@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * A value object, as described in the DDD book.
- * 
+ * 表示没有唯一ID，不需要区分具体是哪个的对象
  */
 public interface ValueObject<T> extends Serializable {
 
